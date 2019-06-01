@@ -15,7 +15,7 @@ for($i=1;$i<=mysqli_num_rows($data);$i++){
 				$login="1";
 			}else{
 				$login="0";
-				header("location: //".$_SERVER['HTTP_HOST']."/admin/login.php?return=$url");
+				header("location: //".$domain."/".$login_url."/login.php?return=$url");
 			}
 		}else{
 			if ($u_c == $rs[2]) {
@@ -23,11 +23,11 @@ for($i=1;$i<=mysqli_num_rows($data);$i++){
 					$login="1";
 				}else{
 					$login="0";
-					header("location: //".$_SERVER['HTTP_HOST']."/admin/login.php?return=$url");
+					header("location: //".$domain."/".$login_url."/login.php/login.php?return=$url");
 				}
 			}else{
 				$login="0";
-				header("location: //".$_SERVER['HTTP_HOST']."/admin/login.php?return=$url");
+				header("location: //".$domain."/".$login_url."/login.php?return=$url");
 			}
 		}
 	}

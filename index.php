@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/admin/page/flf.php');
+require_once('/page/flf.php');
 
 if (@$login == "1"){
 ?>
@@ -34,6 +34,6 @@ if (@$login == "1"){
 </html>
 <?php
 }else{
-	header("location: //".$_SERVER['DOCUMENT_ROOT']."/admin/login.php?return=$url");
+	header("location: ".$prot."//".$domain."/".$login_url."/login.php?return=$url");
 }
 ?>

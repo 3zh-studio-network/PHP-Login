@@ -4,7 +4,7 @@ Name: PHP-Login
 By: 000hen
 Copyright©3ZH-Studio
 */
-require_once($_SERVER['DOCUMENT_ROOT']."/admin/config.php");
+require_once("/config.php");
 
 @$u=$_POST["u"];
 @$p=md5($_POST["p"]);
@@ -14,7 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT']."/admin/config.php");
 @$return=$_GET["return"];
 
 if (empty($return) == 1) {
-	$re=$_SERVER['DOCUMENT_ROOT']."/admin/index.php";
+	$re="//".$domain."/".$login_url."/index.php";
 }else{
 	$re=$return;
 }
@@ -39,7 +39,7 @@ if (empty($u && $p)) {
 		</style>
 	</head>
 	<body>
-		<form action="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>/admin/login.php?return=<?php echo $re; ?>" method="post" style="text-align:center;">
+		<form action="<?php echo "//".$domain."/".$login_url."/login.php" ?>?return=<?php echo $re; ?>" method="post" style="text-align:center;">
 			<p><h1>Login</h1></p>
 			<hr/>
 			<p>名稱: <input type="text" name="u" /><br/></p>
