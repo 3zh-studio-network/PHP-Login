@@ -1,9 +1,10 @@
 <?php
-/*
-Name: PHP-Login
-By: 000hen
-Copyright©3ZH-Studio
-*/
+//Name: TNC-PHP-Login
+//By: 000hen
+//Organizations: 3ZH-Studio Network, TNC(Technology Network Company)
+//Version: 1.24
+//Copyright©3ZH-Studio, Technology Network Company (3ZH-Studio TNC)
+
 require_once("/config.php");
 
 @$u=$_POST["u"];
