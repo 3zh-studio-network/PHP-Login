@@ -4,7 +4,7 @@
 >Copyright&copy;3ZH-Studio, Technology Network Company (3ZH-Studio TNC)<br/>
 
 This is a login system use PHP <br/>
-You can get on git: ```git clone https://github.com/000hen/PHP-Login```
+You can get on git: ```git clone https://github.com/3zh-studio-network/PHP-Login.git```
 
 ## How To Use?
 
