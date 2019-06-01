@@ -1,6 +1,6 @@
 # Login System
 >Made by: 000hen <br/>
->Version: 1 <br/>
+>Version: 1.24 <br/>
 >Copyright&copy;3ZH-Studio, Technology Network Company (3ZH-Studio TNC)<br/>
 
 This is a login system use PHP <br/>
