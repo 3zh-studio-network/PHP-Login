@@ -1,4 +1,10 @@
 <?php
+//Name: TNC-PHP-Login
+//By: 000hen
+//Organizations: 3ZH-Studio Network, TNC(Technology Network Company)
+//Version: 1.24
+//Copyright©3ZH-Studio, Technology Network Company (3ZH-Studio TNC)
+
 require_once('/page/flf.php');
 
 if (@$login == "1"){
